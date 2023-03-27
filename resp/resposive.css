@@ -1,0 +1,103 @@
+.sec1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 15px;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+
+}
+.sec2{
+    height: 100vh; 
+    width: 100%;
+    background-image: url(./imgg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.sec2 .text span{
+    text-shadow: 1px 1px;
+    color: brown;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+.sec6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.seca::after{
+    content: "" ;
+    display: block;
+   border: 1px solid brown; 
+   
+     
+    }
+    .text ::after{
+content: "" ;
+    color: blue;
+    width: 5px;}
+    .container div{
+        width: 100vh;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .box1{
+        background-color: brown;
+      
+    }
+    .box2{
+        background-color: grey;
+        
+    }  
+    .box3{
+        background-color: blue;
+       
+    }  
+    .box4{
+        background-color: pink;
+         
+    }  
+    .box5{
+        background-color: green;
+       
+    }
+    .boxes{
+        border: 3px solid yellow;
+        justify-content: center;
+        align-items: center;
+        padding: 330px;
+    }
+    .sech{
+        display: flex;
+        justify-content: center;
+    }
+    @media only screen and {(max-width: 767;)
+        
+
+    } 
+
+    
